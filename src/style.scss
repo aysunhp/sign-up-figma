@@ -2,14 +2,16 @@ body {
   margin: 0px;
   padding: 0px;
   background: #0f70da;
+  margin: 0 auto;
 }
 * {
   box-sizing: border-box;
 }
 .login-signup {
-  width: 100%;
+  width: 1612px;
   background: #0f70da;
-  padding: 142px 129px 142px 129px;
+  padding: 142px 129px 110px 129px;
+  margin: 0 auto;
   .container {
     display: flex;
     width: 1354px;
@@ -291,17 +293,16 @@ body {
 
 @media only screen and (max-width: 576px) {
   .login-signup {
-    padding: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
+    width: 100%;
   }
   .login-signup .container {
     display: flex;
     flex-direction: column;
     max-width: 576px;
+    // width: 100%;
   }
   .login-signup .container .left {
-    width: 100%;
+    width: 576px;
     padding: 0px 0px 0px 78px;
   }
   .login-signup .container .right {
