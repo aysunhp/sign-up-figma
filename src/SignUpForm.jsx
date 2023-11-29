@@ -7,23 +7,24 @@ import heroImg from "./assets/images/heroImg.png";
 // import "../assets/style/grid.css";
 // import "../assets/style/style.scss";
 import "./style.scss";
+import "./grid.css";
 
 const SignUpForm = () => {
   return (
     <>
       <div className="login-signup">
-        <div className="container">
+        <div className="containerr">
           <div className="left">
             <h1>Social media shared today, tomorrow or by location</h1>
             <div className="circle">
               <div className="img1 img">
-                <img src={heroImg} alt="" style={{ height: "430px" }} />
+                <img src={heroImg} alt="" style={{ height: "630px" }} />
               </div>
               <div className="img2 img">
-                <img src={heroImg} alt="" style={{ height: "340px" }} />
+                <img src={heroImg} alt="" style={{ height: "485px" }} />
               </div>
               <div className="img3 img">
-                <img src={heroImg} alt="" style={{ height: "340px" }} />
+                <img src={heroImg} alt="" style={{ height: "485px" }} />
               </div>
             </div>
 
@@ -112,7 +113,11 @@ const SignUpForm = () => {
                   Sign-in with google
                 </Button>
                 <div className="img">
-                  <img src={googleLogo} alt="google-logo" />
+                  <img
+                    src={googleLogo}
+                    alt="google-logo"
+                    style={{ height: "20px" }}
+                  />
                 </div>
               </div>
             </div>
